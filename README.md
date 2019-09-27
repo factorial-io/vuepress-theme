@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ yarn add @factorial/vuepress-theme@1.0.0-alpha.0 --dev
+$ yarn add @factorial/vuepress-theme@1.0.0-alpha.1 --dev
 ```
 
 ## Usage
