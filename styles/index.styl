@@ -25,6 +25,14 @@ body {
   color: #012954 !important;
 }
 
+.home {
+  box-sizing: border-box;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .home .features,
 .home .footer {
   border-top: 0 !important;
@@ -34,7 +42,13 @@ body {
   color: rgba(255,255,255,0.8) !important;
 }
 
+.home .hero img {
+  max-width: initial;
+  max-height: initial;
+  width: 120px;
+}
+
 .home .hero .action-button {
-  background-color #ff6f40 !important;
-  border-color: #ff6f40 !important;;
+  background-color var(--colorFactorialOrange) !important;
+  border-color: var(--colorFactorialOrange) !important;;
 }
